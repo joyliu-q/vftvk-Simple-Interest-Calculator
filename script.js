@@ -1,8 +1,7 @@
 function compute() {
     let principal = document.getElementById("principal").value;
     if (principal <= 0) {
-        // Decided to not add the feature below in case I get docked points
-        //document.getElementById("principal").value = "";
+        document.getElementById("principal").value = "";
         alert("Enter a positive number");
         document.getElementById("principal").focus();
     } 
